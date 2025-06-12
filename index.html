@@ -6,10 +6,72 @@
     <link rel="stylesheet" href="styles.css">
     <title>Inicio</title>
     <style>
-        
+        body{
+            background-color: lightgrey;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td, th{
+            background-color: whitesmoke;
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        div{
+            width: 30%;
+            height: 200px;
+            border: 1px solid black;
+            background-color: antiquewhite;
+            padding: 10px;
+        }
+
+        img{
+            width: 50%;
+        }
     </style>
 </head>
 <body>
-    
+    <h1>Prueba 1</h1>
+    <hr>
+    <h2>Tabla</h2>
+    <table>
+        <tr>
+            <th>Objeto</th><th>Atributo</th>
+        </tr>
+        <tr>
+            <td>Destornillador</td><td>Verde</td>
+        </tr>
+        <tr>
+            <td>Martillo</td><td>Rojo</td>
+        </tr>  
+    </table>
+    <h2>Lista desordenada</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Hamburguesa</li>
+        <li>Completo</li>
+    </ul>
+    <div>
+        <h2>Título</h2>
+        <hr>
+        <p>Esto es un párrafo muy elocuente.</p>
+    </div>
+    <h2>Un completo</h2>
+    <img src="Completo_italiano.jpg" alt="Completo">
+    <form action="#">
+        <label for="nombre">Nombre Completo:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="edad">Edad:</label><br>
+        <input type="text" id="edad" name="edad"><br>
+        <label for="curso">Curso:</label><br>
+        <input type="text" id="curso" name="curso"><br>
+        <label for="edad">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <input type="submit" value="Ingresar datos">
+    </form>
 </body>
 </html>
